@@ -1,0 +1,69 @@
+body{
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    color: black;
+    font-family: French script 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #ffe2e6;
+}
+.card-pic{
+    width: 300px;
+    height: 300px;
+    border-radius: 5px;
+    position: absolute;
+}
+.pics{
+    width: 80%;
+}
+.promo{
+    width: 50%;
+    margin-right: 5%;
+}
+.social{
+    display: flex;
+    flex-direction: horizontal;
+    align-items: center;
+    margin-block: 10px;
+    gap: 5px;
+}
+.btn-primary{
+    background: #1e90ff;
+}
+.icon{
+    font-size: 64px;
+    color: black;
+}
+.icon:hover{
+    transform: scale(1.1);
+    transition-duration: 0.5s;
+    transition-timing-function: ease-in-out;
+    cursor: pointer;
+}
+#fa-facebook{
+    color: blue;
+}
+#fa-instagram{
+    color: #e4405f;
+    text-decoration: none;
+}
+.card-pic:nth-child(1){
+    left: 15%;
+    top:30%;
+}
+.card-pic:nth-child(2){
+    left: 30%;
+    top:40%;
+}
+.card-pic:nth-child(3){
+    left: 20%;
+    top:50%;
+}
+.card-pic:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+    transition: 0.5s;
+    z-index: 10;
+}
